@@ -75,7 +75,7 @@ async function browser() {
         if (fichaPreparada == 0 && document.getElementsByClassName('chip arrow-slider__element').length > 0) {
             document.getElementsByClassName('chip arrow-slider__element')[ficha].insertAdjacentHTML("afterbegin", "<div id='ficha'></div>")
             document.getElementById('ficha').click()
-            fichaPreparada = 1 GTXghmnJFR
+            fichaPreparada = 1
         }
         //abrir popup de aposta
         if (document.getElementsByClassName('roulette-statistics-info__row roulette-statistics-info__row_dozens-columns').length == 0) {
